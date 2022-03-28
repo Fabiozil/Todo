@@ -1,0 +1,15 @@
+.Container {
+    background-color: lightcyan;
+    height: 100vh;
+    width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}

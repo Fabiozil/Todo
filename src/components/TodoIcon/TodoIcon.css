@@ -1,0 +1,22 @@
+.Icon-container--check {
+    margin-right: 5%;
+}
+
+.Icon-container--delete {
+    float: right;
+}
+
+.Icon-svg {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: fill 0.15s;
+}
+
+.Icon-container:hover .Icon-svg--check {
+    fill: #4caf50;
+}
+
+.Icon-container:hover .Icon-svg--delete {
+    fill: red;
+}

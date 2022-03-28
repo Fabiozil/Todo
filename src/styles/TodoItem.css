@@ -1,0 +1,55 @@
+.TodoItem {
+    border: 0.1px solid lightgray;
+    padding: 2%;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: lightcyan;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+.Item {
+    color: red;
+    display: inline;
+    margin-right: 3%;
+    width: 5%;
+    border-radius: 60%;
+    cursor: pointer;
+    border-color: gray;
+    background-color: white;
+}
+
+.ItemCompleted {
+    color: greenyellow;
+    cursor: default;
+}
+
+.p {
+    display: inline;
+}
+
+.ItemDelete {
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+
+.ItemDelete:hover {
+    box-shadow: 0px 0px 0px 2px lightgray;
+}
+
+.TodoItem {
+    border: 0.1px solid lightgray;
+    padding: 2%;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: lightcyan;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+.TodoItemCompleted {
+    background-color: rgb(187, 187, 187);
+}
+
+.TodoItemCompleted p {
+    text-decoration: line-through;
+}

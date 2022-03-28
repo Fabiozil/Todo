@@ -1,0 +1,19 @@
+.TodoList {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 60%;
+    overflow-y: auto;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: white;
+    padding: 2%;
+}
+
+.TodoListUL {
+    list-style-type: none;
+}
